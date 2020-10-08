@@ -1,11 +1,13 @@
 # Week12_SH16
 The repository have the code to perform several analytics questions using Hive JAVA API.
-1.       Write a HiveQL using Java API to create a table for Employee and Salary data set. (Note: Schema description for both tables is  given in data set folder).
+1.  Write a HiveQL using Java API to create a table for Olympic data set. (Note: Schema description for Olympic table is given in    data  set folder).
 
-2.      Write a HiveQL using Java API for loading data into Employee and Salary Tables from the given the data set files.
+2.  Write a HiveQL using Java API for loading data into Olympic Table from the given the data set file.
 
-3.      Write a HiveQL using Java API to retrieve the top 10 oldest employees.
+3.  Write a HiveQL using Java API to create a partition table by year and load data into partition table from Olympic Table.
 
-4.      Write a HiveQL using Java API to find the top 10 employees earned the highest average salary.
+4.  Write a HiveQL using Java API to create a bucket table by country and load data into partition table from Olympic Table.
 
-5.      Write a HiveQL using Java API to find the number of male and female employees.
+5.  Write a HiveQL using Java API to find out total number of medals won by each country.
+
+6.  Write a HiveQL using Java API to find out total number of medals won by India year wise. 
