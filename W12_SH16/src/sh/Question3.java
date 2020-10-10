@@ -35,7 +35,7 @@ public class Question3 {
 	  	   stmt.execute("set hive.exec.dynamic.partition.mode = nonstrict");
 	  	   
 	  	   //load data into partition table from olympic table
-	  	   stmt.execute("insert overwrite table partition_by_year partition (year) select AthleteName, Age, Country, Closing_Date, Sport, Gold_Medals, Silver_Medals, Silver_Medals, Bronze_Medals, Total_Medals, Year from olympic");
+	  	   stmt.execute("insert overwrite table partition_by_year partition (year) select AthleteName, Age, Country, Closing_Date, Sport, Gold_Medals, Silver_Medals, Bronze_Medals, Total_Medals, Year from olympic");
 	  	 System.out.println("Successfully Loaded the Data from Olympic table to Partition_by_Year table");  
 	   
 	      
